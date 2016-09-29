@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Play Nine</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="agram.css">
+  </head>
+  <body>
+    <h1>Agram</h1>
+    <div id="root"></div>
+    <script src="underscore.js"></script>
+    <script src="./react.js"></script>
+    <script src="./react-dom.js"></script>
+    <script src="agram.js"></script>
+    <script>
+      var Name = React.createClass({
+        render: function(){
+          return (<div>George</div>);
+        }
+      });
+
+      ReactDOM.render(<Name />, document.getElementById('root'));
+    </script>
+
+  </body>
+</html>
